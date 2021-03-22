@@ -24,6 +24,9 @@ Rails.application.routes.draw do
   #
   # # Add GET path for photos controller, index method
   # get 'photos/index'
+  get 'home/index'
+  get 'resources/index', to: 'resources#index'
+  get 'donation/index', to: 'donation#index'
   #
   # # Resources, but only register these methods
   # resources :photos, only: [:index, :new, :create, :destroy]
