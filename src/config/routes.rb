@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'resources/index', to: 'resources#index'
   get 'donation/index', to: 'donation#index'
+  get 'items/index', to: 'items#index'
   #
   # # Resources, but only register these methods
   # resources :photos, only: [:index, :new, :create, :destroy]
