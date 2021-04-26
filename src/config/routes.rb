@@ -8,7 +8,7 @@
 
 Rails.application.routes.draw do
   resources :posts
-  root to: 'pages#home'
+  root 'home#index'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # The root page, e.g. www.example.com/, is sent here
   # root 'controller#method_in_controller'
