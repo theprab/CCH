@@ -11,7 +11,7 @@ Currently, the app is designed for one shelter to access it and for its local co
 ## Accessing the Site
 
 1. Turn on TCNJ's VPN and run the app with
-rails server --binding=10.18.6.42
+```rails server --binding=10.18.6.42```
 2. Access [The Community Collective for Homelessness](http://csc415-server42.hpc.tcnj.edu:3000/)
 3. You made it! You should see the home page, and from there, feel free to explore.
 
