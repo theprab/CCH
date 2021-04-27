@@ -13,3 +13,14 @@ th{
 .field{
     font-size: large;
 }
+
+img{
+    height: auto;
+    width: auto;
+}
+
+.center{
+    display: flexbox;
+    margin: 0 auto; 
+    text-align: center;
+}

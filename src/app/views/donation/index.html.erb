@@ -1,10 +1,11 @@
 <h2>Requested Items</h2>
 <p>
   <i>Here are items that your local shelter has requested. Click on it to see more details about the item and where you can donate it.</i>
-  <ul>
-    <li>thing 1</li>
-    <li>thing 2</li>
-    <li>thing 3</li>
-    <img <%= image_tag("thing1thing2.jpg", :alt => "Thing 1 and Thing 2 having a grand old time") %>
-  </ul>
+    <ul>
+      <% @posts.each do |post| %>
+        <li><%= post.title%>: <%= post.body%></li>
+      <% end %><ul>
+
+    <%= image_tag("thing1thing2.jpg", :alt => "Thing 1 and Thing 2 having a grand old time") %>
+
 </p>

@@ -1,3 +1,5 @@
+<% if user_signed_in? %>
+<div>
 <p id="notice"><%= notice %></p>
 
 <h2>Administrative Access</h2>
@@ -36,3 +38,15 @@
 <br>
 
 <p class="btn btn-outline-primary"><%= link_to 'New Post', new_post_path %></p>
+</div>
+<%else %>
+  <div class = "center">
+    <h3>Garry the Guinea Pig is upset that you haven't signed in for your admin privileges!</h3>
+    
+    <br>
+    <%= image_tag("guineapig.jpg", :alt => "Garry the Guinea Pig!") %>    
+    <br><br>
+
+    <%= button_to "Login", new_user_session_path, class: "btn btn-outline-primary"%>
+  </div>
+<% end %>
