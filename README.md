@@ -39,6 +39,22 @@ rake db:seed
 
 There are currently three pages, **Resources**, **Donate Here**, and **Administrative Access**, which requires a login.
 
+## Known Bugs, Issues, and Limitations
+For information on known issues, bugs and limitations, visit the issues tab for detailed information and feel free to add more once you have thoroughly read the guidelines.
+
 ## Navigating the GitHub Page
 
 All documentation and diagrams can be found inside `docs` and all code inside `src`.
+
+* The Community Collective for Homelessness has the MIT license, which allows developers to the rights to use, copy, modify, merge, publish, and distribute the software without limitation, a useful permission to have when dealing with open source maintenance and communications. 
+* The caveat here is that, in copying and distributing my code, the software must continue to be open source and cannot be restricted in future uses.
+* When editing and re-using, be sure to label it with your name and dates of use for proper documentation purposes for future users.
+* To communicate with other developers, ensure that you, as a contributor to this project, document bugs, issues and possible future functionality through issues, milestones and the wiki pages so that other open-source developers like you have access to this documentation.
+
+## Community Guidelines
+* For more specific guidelines, visit [this link](https://opensource.org/licenses/MIT) for information on the MIT license.
+* GitHub has also included information about specific licenses and their restrictions before you begin work on an open-source project such as this one
+* Respect all others involved in the community and in the development of this project
+* Always create a pull request to be reviewed and never push directly to the master branch
+* Always extensively test code before full implementation so that it does not break the system.
+
