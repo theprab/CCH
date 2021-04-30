@@ -8,6 +8,28 @@ This is a web app designed with Ruby on Rails for homeless shelters to minimize 
 
 Currently, the app is designed for one shelter to access it and for its local community to support them, and in the future, other communities will be able to use it for their own needs.
 
+## Installing the App
+
+Clone the repository through the following link [](https://github.com/theprab/CCH.git) for HTML or git@github.com:theprab/CCH.git for SSH. This was done through the VM so do so through your VM for access to necessary Ruby versions and environments.
+
+Use the following steps to complete cloning.
+
+git clone https://github.com/theprab/CCH.git
+
+cd CCH/src
+
+bundle install
+
+yarn install
+
+rake db:create
+
+rake db:migrate:reset
+
+rake db:migrate
+
+rake db:seed
+
 ## Accessing the Site
 
 1. Turn on TCNJ's VPN and run the app with
