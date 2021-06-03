@@ -10,7 +10,9 @@ Currently, the app is designed for one shelter to access it and for its local co
 
 ## Installing the App
 
-Clone the repository through the following link [](https://github.com/theprab/CCH.git) for HTML or git@github.com:theprab/CCH.git for SSH. This was done through the VM so do so through your VM for access to necessary Ruby versions and environments.
+Clone the repository through the following link [](https://github.com/theprab/CCH.git) for HTML or git@github.com:theprab/CCH.git for SSH. This was done through the VM so do so through your VM for access to necessary Ruby versions and environments. If you are installing the repository on your local disk and do not have Ruby and Rails on your machine, follow [these steps](https://gorails.com/setup/osx/11.0-big-sur) for Mac and use the RubyInstaller package [here](https://rubyinstaller.org/) for Windows.
+
+Keep in mind that this project requires Ruby version 2.7.2
 
 Use the following steps to complete cloning.
 
@@ -29,6 +31,7 @@ rake db:migrate:reset
 rake db:migrate
 
 rake db:seed
+
 
 ## Accessing the Site
 
